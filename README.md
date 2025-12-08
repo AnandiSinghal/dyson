@@ -1,4 +1,5 @@
 # Mobius Dyson Ring Renderer
+<img width="1200" height="928" alt="2025-12-08_11-29-05" src="https://github.com/user-attachments/assets/fc6b2bcd-4d4c-4f71-8551-052146ebd5ed" />
 
 Render a stylized Dyson ring as a rotating wireframe with flickering starfield
 backdrop. The camera uses an orthographic projection so the ring keeps its
